@@ -1,0 +1,141 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	background: #f2f2f2;
+}
+*{
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.col-md-6{
+	position: relative;
+	top: 60px;
+	background: #fff;
+	border-radius: 4px;
+}
+
+
+#form-title{
+	font-family: Poppins-Bold;
+	font-size: 30px;
+	display: block;
+	color: #333333;
+	text-align: center;
+	line-height: 1.2;
+	text-transform: uppercase;
+}
+
+
+form{
+	display: block;
+	width: 70%;
+	padding: 20px;margin: auto;
+}
+
+.input_div{
+	position: relative;
+	width: 100%;
+	border-bottom: 2px solid #adadad;
+}
+
+.input1{
+	font-family: Poppins-Regular;
+	font-size: 15px;
+	color: #555555;
+	height: 45px;
+	width: 100%;
+	padding: 0 5px;
+	background: transparent;
+}
+
+input{
+	border-style: none;
+	outline: none;
+}
+
+#login_btn:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+#login_btn{
+	--c1: #006dd9;
+	--c2: #fda085;
+}
+
+.log{
+	position: static;
+	flex: 1 1 auto;
+	display: inline-block;
+	height: 20px;
+	padding: 1.3em 1.5em;
+	color: #fff;
+	border-radius: 30px;
+	border: 1px solid #006dd9;
+	font-size: 11px;
+	text-indent: 0;
+	text-transform: uppercase;
+	word-spacing: 2px;
+	transition: all .6s;
+	width: 50%;
+	text-decoration: none;
+	font-weight: 700;
+	background: #006dd9;
+}
+
+.log:hover{
+	background-position: right center;
+	--y: 100%;
+}
+
+.log{
+	background: linear-gradient(90deg, var(--c1, #f6d365), var(--c2, #fda085) 51%, var(--c1, #f6d365)) var(--x, 0) / 200%;
+	color: #fff;
+	box-shadow: 0 0 20px #eee;
+}
+
+#sign_up_option{
+	font-family: Poppins-Regular;
+	color: #666666;
+	line-height: 3.5;
+}
+
+#sign-up-link{
+	-webkit-transition: all 0.4s;
+	text-decoration: none;
+	touch-action: manipulation;
+	background-color: transparent;
+	color: #007bff;
+}
+
+
+
+input.isRequired{
+	border: 2px solid #e74c3c;
+}
+
+#link_btn{
+	position: relative;
+	top: -15px;
+}
+
+
+
+.errmessage{
+	width: calc(100% - 8px);
+	background: #e74c3c;
+	border: 2px solid #EC644B;
+	color: #fff;
+	display: none;
+}
+
+.errmessage li{
+	padding: 0 0 5px 0;
+	font-family: open sans, sans-serif;
+	margin: 0 0 0 30px;
+}
